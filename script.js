@@ -14,4 +14,10 @@ $(".clickThisButton").on('click', function(){ // click triggers the funtion
   $(this).parent().parent().parent().find('h1').css('background-color', '#eeeeaa');
 });
 
+$(".clickThisButton").on('mouseenter',function(){
+    $(".clickThisButton").css('color', 'blue')
+  });
+$(".clickThisButton").on('mouseleave',function(){
+      $(".clickThisButton").css('color', 'black')
+});
 });
